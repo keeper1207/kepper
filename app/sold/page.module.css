@@ -7,7 +7,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 /* Headings */
@@ -39,6 +39,7 @@
   border-color: #ff5252;
   outline: none;
   background: rgba(255, 255, 255, 0.9);
+  color: black;
 }
 
 /* Buttons */
@@ -67,6 +68,7 @@
   background: white;
   border-radius: 10px;
   overflow: hidden;
+  color: #000;
 }
 
 .th,
@@ -78,11 +80,12 @@
 
 .th {
   background: #ff758c;
-  color: white;
+  color: #000;
 }
 
 .tr:nth-child(even) {
   background: #ffebee;
+  color: #000;
 }
 
 /* Action button */
@@ -110,8 +113,6 @@
   .container {
     padding: 15px;
     margin: 20px 10px;
-
-    margin-top: 4rem;
   }
 
   .heading {
@@ -123,12 +124,14 @@
   .soldButton {
     font-size: 14px;
     padding: 10px;
+    color: #000;
   }
   .tr,
   .th,
   .td {
     font-size: 0.59rem;
     padding: 4px;
+    color: #000;
   }
 
   .form {
