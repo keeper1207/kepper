@@ -14,6 +14,7 @@
   /* padding: 80px;
   gap: 64px; */
   font-family: var(--font-geist-sans);
+  background-color: #f2f2f2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +25,8 @@
 
     --button-primary-hover: #ccc;
     --button-secondary-hover: #1a1a1a;
+
+    background-color: #f2f2f2;
   }
 }
 
@@ -33,6 +36,8 @@
   gap: 2px;
   grid-row-start: 2;
   max-width: 100vw;
+
+  background-color: #f2f2f2;
 }
 
 .main ol {
@@ -130,6 +135,8 @@ a.secondary {
     padding-bottom: 8px;
     width: 100vw;
     max-width: 100%;
+
+    background-color: #f2f2f2;
   }
 
   .main {
