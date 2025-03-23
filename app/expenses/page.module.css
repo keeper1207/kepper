@@ -33,6 +33,7 @@
   border: 2px solid #ff758c;
   font-size: 16px;
   transition: all 0.3s ease;
+  color: #000;
 }
 
 .input:focus {
@@ -120,12 +121,18 @@
     font-size: 22px;
   }
 
-  .input,
+  .input {
+    font-size: 14px;
+    padding: 10px;
+    color: #ff5252;
+    background-color: ;
+  }
   .button,
   .soldButton {
     font-size: 14px;
     padding: 10px;
     color: white;
+    background-color: ;
   }
   .tr,
   .th,
