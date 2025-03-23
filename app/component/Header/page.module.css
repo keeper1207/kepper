@@ -1,0 +1,190 @@
+.header {
+  background-color: transparent; /* Transparent header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  /* position: fixed;
+    top: 0; */
+  width: 100%;
+  margin-bottom: 2rem;
+  z-index: 1000; /* Keeps the header on top */
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); Subtle shadow for depth */
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding: 0.2rem;
+  border-radius: 5rem;
+  margin-left: 0.3rem;
+  font-size: 1.1rem;
+}
+
+.baggyt {
+  padding-left: 0.4rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.header > a {
+  color: black;
+  text-decoration: none;
+}
+
+.logoformat {
+  /* Add any specific styling for the logo here */
+}
+
+.end {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.create,
+.about {
+  color: black;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 2px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.create:hover,
+.about:hover {
+  background-color: red;
+  color: white;
+}
+
+.create a,
+.about a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 20px;
+  z-index: 10; /* Ensures it's on top */
+}
+
+.bar {
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.3s ease;
+}
+
+.showMenu {
+  display: none;
+}
+
+@media (min-width: 599px) and (max-width: 800px) {
+  .end {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .create,
+  .about {
+    color: black;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 1px 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .end {
+    display: none;
+    gap: 9px;
+  }
+
+  .create,
+  .about {
+    padding: 2px 8px;
+  }
+
+  .bar {
+    width: 16px;
+    height: 1px;
+    background-color: #333;
+    margin: 2px 0;
+    transition: 0.3s ease;
+  }
+
+  .header {
+    background-color: transparent; /* Transparent header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Keeps the header on top */
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); Subtle shadow for depth */
+  }
+
+  .name {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding: 0.2rem;
+    border-radius: 5rem;
+    margin-left: 0.1rem;
+  }
+
+  .end.showMenu {
+    display: flex !important;
+  }
+
+  .bar {
+    font-size: 10px;
+  }
+
+  .baggyt {
+    padding-left: 0.4rem;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  .logoformat {
+    font-size: 0.7rem;
+    height: 2.1rem;
+    width: 2rem;
+    margin-left: 0;
+  }
+
+  .end.showMenu {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: white;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
