@@ -122,7 +122,7 @@ const Products = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.heading}>Product Registration</h1>
+      <h1 className={styles.heading}>Product Registrations</h1>
 
       <div className={styles.form}>
         <input
