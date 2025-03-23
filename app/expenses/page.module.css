@@ -39,7 +39,7 @@
   border-color: #ff5252;
   outline: none;
   background: rgba(255, 255, 255, 0.9);
-  color: blue;
+  color: #ff5252;
 }
 
 /* Buttons */
@@ -79,7 +79,7 @@
 }
 
 .th {
-  background: blue;
+  background: #ff5252;
   color: #000;
 }
 
@@ -113,6 +113,7 @@
   .container {
     padding: 15px;
     margin: 20px 10px;
+    margin-top: 4rem;
   }
 
   .heading {
@@ -124,7 +125,7 @@
   .soldButton {
     font-size: 14px;
     padding: 10px;
-    color: blue;
+    color: white;
   }
   .tr,
   .th,
