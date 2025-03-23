@@ -39,7 +39,7 @@
   border-color: #ff5252;
   outline: none;
   background: rgba(255, 255, 255, 0.9);
-  color: black;
+  color: #ff8c00;
 }
 
 /* Buttons */
@@ -124,7 +124,7 @@
   .soldButton {
     font-size: 14px;
     padding: 10px;
-    color: #000;
+    color: #ff8c00;
   }
   .tr,
   .th,
